@@ -7,12 +7,11 @@ module maxwellDist
       real :: c(3)
    end type particle
    contains
-      subroutine particleDist(n,m,V,T,p)
-         type(particle), intent(in) :: p
-         type(real), intent(in) :: m
-         type(integer), intent(in) :: N
-         type(real), intent(in) :: T
-         type(real), intent(in) :: V
+      subroutine particleDist(m,V,T,p)
+         type(particle), intent(inout) :: p
+         real, intent(in) :: m
+         real, intent(in) :: T
+         real, intent(in) :: V(3)
 
          integer :: i
          real :: k, pi, beta, R(6)
@@ -24,10 +23,8 @@ module maxwellDist
 
          beta = (m/2/k/T)
 
-      do i = 1, N
-         p(i)%c(1) = V(1) + SIN(2*pi*R(1))*(-log(R(2)))**0.5
-         p(i)%c(2) = V(2) + SIN(2*pi*R(4))*(-log(R(3)))**0.5
-         p(i)%c(3) = V(3) + SIN(2*pi*R(5))*(-log(R(6)))**0.5
-      end do
+         p%c(1) = V(1) + SIN(2*pi*R(1))*(-log(R(2)))**0.5
+         p%c(2) = V(2) + SIN(2*pi*R(4))*(-log(R(3)))**0.5
+         p%c(3) = V(3) + SIN(2*pi*R(5))*(-log(R(6)))**0.5
    end subroutine particleDist
 end module maxwellDist
