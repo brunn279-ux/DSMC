@@ -1,0 +1,25 @@
+description:
+  name: DSMC_HW1_Problem1
+  description: Study of Low/High Temp/Vel/Particle Count
+
+env:
+  variables:
+    OUTPUT_PATH: ./
+
+study:
+   - name: mag-sweep
+     description: run of part c of problem one
+     run:
+       cmd: |
+         ~/Documents/School/Grad/Spring2026/DSMC/HW1/particles $(NUM_PART) 39.95 $(TEMP) $(CX) 0 0
+
+global.parameters:
+  NUM_PART:
+    values: [100, 100, 100, 100, 500000, 500000, 500000, 500000]
+    label: NUM_PART.%%
+  TEMP:
+    values: [100, 100, 1000, 1000, 100, 100, 1000, 1000]
+    label: TEMP.%%
+  CX:
+    values: [1000, 100, 1000, 100, 1000, 100, 1000, 100]
+    label: CX.%%

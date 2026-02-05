@@ -1,0 +1,15 @@
+/Users/abbieb/Documents/School/Grad/Spring2026/DSMC/HW1/DSMC_HW1_Problem1_20260204-183918/mag-sweep/mag-sweep.sh: line 3: NUM_PART: command not found
+/Users/abbieb/Documents/School/Grad/Spring2026/DSMC/HW1/DSMC_HW1_Problem1_20260204-183918/mag-sweep/mag-sweep.sh: line 3: TEMP: command not found
+/Users/abbieb/Documents/School/Grad/Spring2026/DSMC/HW1/DSMC_HW1_Problem1_20260204-183918/mag-sweep/mag-sweep.sh: line 3: CX: command not found
+At line 21 of file particleDist.f90
+Fortran runtime error: Bad integer for item 1 in list input
+
+Error termination. Backtrace:
+#0  0x102f5accf
+#1  0x102f5b877
+#2  0x102f5c147
+#3  0x10304608b
+#4  0x1030488af
+#5  0x10304963f
+#6  0x102cf099f
+#7  0x102cf1217

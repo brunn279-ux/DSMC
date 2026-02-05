@@ -1,0 +1,16 @@
+dependencies:
+  _source: !!set {}
+  mag-sweep: !!set {}
+hub_dependencies:
+  _source: !!set {}
+  mag-sweep: !!set {}
+step_combinations:
+  _source: /Users/abbieb/Documents/School/Grad/Spring2026/DSMC/HW1/DSMC_HW1_Problem1_20260204-183859
+  mag-sweep:
+    mag-sweep: mag-sweep
+used_parameters:
+  _source: !!set {}
+  mag-sweep: !!set {}
+workspaces:
+  _source: /Users/abbieb/Documents/School/Grad/Spring2026/DSMC/HW1/DSMC_HW1_Problem1_20260204-183859
+  mag-sweep: mag-sweep

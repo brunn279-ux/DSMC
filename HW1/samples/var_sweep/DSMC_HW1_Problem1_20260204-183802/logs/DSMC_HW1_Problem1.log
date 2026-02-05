@@ -1,0 +1,54 @@
+2026-02-04 18:38:02,599 - maestrowf.conductor:setup_logging:93 - INFO - INFO Logging Level -- Enabled
+2026-02-04 18:38:02,599 - maestrowf.conductor:setup_logging:94 - WARNING - WARNING Logging Level -- Enabled
+2026-02-04 18:38:02,599 - maestrowf.conductor:setup_logging:95 - CRITICAL - CRITICAL Logging Level -- Enabled
+2026-02-04 18:38:02,600 - maestrowf.datastructures.core.executiongraph:__init__:379 - INFO - 
+------------------------------------------
+Submission attempts =       1
+Submission throttle limit = 0
+Use temporary directory =   False
+Tmp Dir = 
+------------------------------------------
+2026-02-04 18:38:02,600 - maestrowf.datastructures.core.executiongraph:log_description:541 - INFO - 
+==================================================
+name: DSMC_HW1_Problem1
+description: Study of Low/High Temp/Vel/Particle Count
+==================================================
+
+2026-02-04 18:38:02,600 - maestrowf.datastructures.core.study:_stage:477 - INFO - 
+==================================================
+Constructing parameter study 'DSMC_HW1_Problem1'
+==================================================
+
+2026-02-04 18:38:02,600 - maestrowf.datastructures.core.study:_stage:503 - INFO - 
+==================================================
+Processing step '_source'
+==================================================
+
+2026-02-04 18:38:02,600 - maestrowf.datastructures.core.study:_stage:511 - INFO - Encountered '_source'. Adding and continuing.
+2026-02-04 18:38:02,600 - maestrowf.datastructures.core.study:_stage:503 - INFO - 
+==================================================
+Processing step 'mag-sweep'
+==================================================
+
+2026-02-04 18:38:02,600 - maestrowf.datastructures.core.study:_stage:576 - INFO - 
+-------------------------------------------------
+Adding step 'mag-sweep' (No parameters used)
+-------------------------------------------------
+
+2026-02-04 18:38:02,600 - maestrowf.datastructures.core.study:_stage:595 - INFO - Searching for workspaces...
+cmd = ~/Documents/School/Grad/Spring2026/DSMC/HW1/particles $(NUM_PART) 39.95 $(TEMP) $(CX) 0 0
+
+2026-02-04 18:38:02,600 - maestrowf.utils:create_parentdir:127 - INFO - Directory does not exist. Creating directories to /Users/abbieb/Documents/School/Grad/Spring2026/DSMC/HW1/samples/var_sweep/DSMC_HW1_Problem1_20260204-183802/meta
+2026-02-04 18:38:02,600 - maestrowf.utils:create_parentdir:127 - INFO - Directory does not exist. Creating directories to /Users/abbieb/Documents/School/Grad/Spring2026/DSMC/HW1/samples/var_sweep/DSMC_HW1_Problem1_20260204-183802/meta/study
+2026-02-04 18:38:02,601 - maestrowf.conductor:monitor_study:426 - INFO - Checking DAG status at 2026-02-04 18:38:02.601606
+2026-02-04 18:38:02,601 - maestrowf.datastructures.core.executiongraph:execute_ready_steps:932 - INFO - Launching all ready steps...
+2026-02-04 18:38:02,601 - maestrowf.datastructures.core.executiongraph:_execute_record:588 - INFO - Calling execute for StepRecord 'mag-sweep'
+2026-02-04 18:38:02,601 - maestrowf.utils:create_parentdir:127 - INFO - Directory does not exist. Creating directories to /Users/abbieb/Documents/School/Grad/Spring2026/DSMC/HW1/samples/var_sweep/DSMC_HW1_Problem1_20260204-183802/mag-sweep
+2026-02-04 18:38:02,601 - maestrowf.datastructures.core.executiongraph:generate_script:114 - INFO - Generating script for mag-sweep into /Users/abbieb/Documents/School/Grad/Spring2026/DSMC/HW1/samples/var_sweep/DSMC_HW1_Problem1_20260204-183802/mag-sweep
+2026-02-04 18:38:02,601 - maestrowf.datastructures.core.executiongraph:generate_script:118 - INFO - Script: /Users/abbieb/Documents/School/Grad/Spring2026/DSMC/HW1/samples/var_sweep/DSMC_HW1_Problem1_20260204-183802/mag-sweep/mag-sweep.sh
+Restart: None
+Scheduled?: False
+2026-02-04 18:38:02,601 - root:_check_study_completion:740 - INFO - 'DSMC_HW1_Problem1' is complete. Returning.
+2026-02-04 18:38:02,602 - maestrowf.conductor:main:461 - INFO - Study completed with state 'StudyStatus.FINISHED'.
+2026-02-04 18:38:02,602 - maestrowf.conductor:main:468 - INFO - Study exiting, cleaning up...
+2026-02-04 18:38:02,602 - maestrowf.conductor:main:470 - INFO - Squeaky clean!

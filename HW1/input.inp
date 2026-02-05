@@ -1,0 +1,41 @@
+###########################################################
+ Input deck for mgds_lite (student)
+###########################################################
+   Solver:  irun     nstep     iwrt
+             0       10000       100
+###########################################################
+   Box:    boxX             boxY             boxZ
+           0.4088d0           0.2044d0           0.29162d0
+           L1_scale_factor  L2_scale_factor  L3_scale_factor
+           1.0              1.0              1.0
+          |---- imin  imax  jmin  jmax  kmin  kmax  ----|
+                 1     2      0     0     0     0
+###########################################################
+   Params:   dT_fact    Num_Part_Cell
+              1.0         20.0
+###########################################################
+   Species:    num_species
+                   1
+###########################################################
+   Sampling:   isam    issm
+               2       500
+###########################################################
+   Surface orientation and scaling
+     Translation
+       0.0d0     0.0d0      0.0d0
+     Scaling (all axes)
+       1.0d0
+     Rotation (orthogonal matrix, anti-symmetric)
+       1.0d0         0.0d0         0.0d0
+                     1.0d0         0.0d0
+                                   1.0d0
+   Surface Files (number of files, then list on new lines)
+      1
+    'spec.pts'
+###########################################################
+  Format type for restart files (either ascii or binary)
+    binary
+###########################################################
+  2D option in x-y plane (.true. for 2D, .false. for 3D)
+    .true.
+###########################################################

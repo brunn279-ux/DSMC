@@ -1,0 +1,96 @@
+NUM_PART.100.TEMP.100.CX.100:
+  labels: !!python/object/apply:collections.OrderedDict
+  - - - $(NUM_PART.label)
+      - NUM_PART.100
+    - - $(TEMP.label)
+      - TEMP.100
+    - - $(CX.label)
+      - CX.100
+  params:
+    $(CX): 100
+    $(NUM_PART): 100
+    $(TEMP): 100
+NUM_PART.100.TEMP.100.CX.1000:
+  labels: !!python/object/apply:collections.OrderedDict
+  - - - $(NUM_PART.label)
+      - NUM_PART.100
+    - - $(TEMP.label)
+      - TEMP.100
+    - - $(CX.label)
+      - CX.1000
+  params:
+    $(CX): 1000
+    $(NUM_PART): 100
+    $(TEMP): 100
+NUM_PART.100.TEMP.1000.CX.100:
+  labels: !!python/object/apply:collections.OrderedDict
+  - - - $(NUM_PART.label)
+      - NUM_PART.100
+    - - $(TEMP.label)
+      - TEMP.1000
+    - - $(CX.label)
+      - CX.100
+  params:
+    $(CX): 100
+    $(NUM_PART): 100
+    $(TEMP): 1000
+NUM_PART.100.TEMP.1000.CX.1000:
+  labels: !!python/object/apply:collections.OrderedDict
+  - - - $(NUM_PART.label)
+      - NUM_PART.100
+    - - $(TEMP.label)
+      - TEMP.1000
+    - - $(CX.label)
+      - CX.1000
+  params:
+    $(CX): 1000
+    $(NUM_PART): 100
+    $(TEMP): 1000
+NUM_PART.500000.TEMP.100.CX.100:
+  labels: !!python/object/apply:collections.OrderedDict
+  - - - $(NUM_PART.label)
+      - NUM_PART.500000
+    - - $(TEMP.label)
+      - TEMP.100
+    - - $(CX.label)
+      - CX.100
+  params:
+    $(CX): 100
+    $(NUM_PART): 500000
+    $(TEMP): 100
+NUM_PART.500000.TEMP.100.CX.1000:
+  labels: !!python/object/apply:collections.OrderedDict
+  - - - $(NUM_PART.label)
+      - NUM_PART.500000
+    - - $(TEMP.label)
+      - TEMP.100
+    - - $(CX.label)
+      - CX.1000
+  params:
+    $(CX): 1000
+    $(NUM_PART): 500000
+    $(TEMP): 100
+NUM_PART.500000.TEMP.1000.CX.100:
+  labels: !!python/object/apply:collections.OrderedDict
+  - - - $(NUM_PART.label)
+      - NUM_PART.500000
+    - - $(TEMP.label)
+      - TEMP.1000
+    - - $(CX.label)
+      - CX.100
+  params:
+    $(CX): 100
+    $(NUM_PART): 500000
+    $(TEMP): 1000
+NUM_PART.500000.TEMP.1000.CX.1000:
+  labels: !!python/object/apply:collections.OrderedDict
+  - - - $(NUM_PART.label)
+      - NUM_PART.500000
+    - - $(TEMP.label)
+      - TEMP.1000
+    - - $(CX.label)
+      - CX.1000
+  params:
+    $(CX): 1000
+    $(NUM_PART): 500000
+    $(TEMP): 1000

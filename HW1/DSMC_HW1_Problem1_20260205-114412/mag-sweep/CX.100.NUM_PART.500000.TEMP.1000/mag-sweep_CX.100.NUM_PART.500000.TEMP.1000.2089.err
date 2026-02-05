@@ -1,0 +1,3 @@
+usage: cp [-R [-H | -L | -P]] [-fi | -n] [-aclpSsvXx] source_file target_file
+       cp [-R [-H | -L | -P]] [-fi | -n] [-aclpSsvXx] source_file ... target_directory
+/opt/homebrew/Cellar/python@3.13/3.13.7/Frameworks/Python.framework/Versions/3.13/Resources/Python.app/Contents/MacOS/Python: can't open file '/Users/abbieb/Documents/School/Grad/Spring2026/DSMC/HW1/DSMC_HW1_Problem1_20260205-114412/mag-sweep/CX.100.NUM_PART.500000.TEMP.1000/postProc.py': [Errno 2] No such file or directory

@@ -1,0 +1,240 @@
+2026-02-05 11:55:47,240 - maestrowf.conductor:setup_logging:93 - INFO - INFO Logging Level -- Enabled
+2026-02-05 11:55:47,240 - maestrowf.conductor:setup_logging:94 - WARNING - WARNING Logging Level -- Enabled
+2026-02-05 11:55:47,240 - maestrowf.conductor:setup_logging:95 - CRITICAL - CRITICAL Logging Level -- Enabled
+2026-02-05 11:55:47,241 - maestrowf.datastructures.core.executiongraph:__init__:379 - INFO - 
+------------------------------------------
+Submission attempts =       1
+Submission throttle limit = 0
+Use temporary directory =   False
+Tmp Dir = 
+------------------------------------------
+2026-02-05 11:55:47,241 - maestrowf.datastructures.core.executiongraph:log_description:541 - INFO - 
+==================================================
+name: DSMC_HW1_Problem1
+description: Study of Low/High Temp/Vel/Particle Count
+==================================================
+
+2026-02-05 11:55:47,241 - maestrowf.datastructures.core.study:_stage:477 - INFO - 
+==================================================
+Constructing parameter study 'DSMC_HW1_Problem1'
+==================================================
+
+2026-02-05 11:55:47,241 - maestrowf.datastructures.core.study:_stage:503 - INFO - 
+==================================================
+Processing step '_source'
+==================================================
+
+2026-02-05 11:55:47,241 - maestrowf.datastructures.core.study:_stage:511 - INFO - Encountered '_source'. Adding and continuing.
+2026-02-05 11:55:47,241 - maestrowf.datastructures.core.study:_stage:503 - INFO - 
+==================================================
+Processing step 'mag-sweep'
+==================================================
+
+2026-02-05 11:55:47,241 - maestrowf.datastructures.core.study:_stage:641 - INFO - 
+==================================================
+Expanding step 'mag-sweep'
+==================================================
+-------- Used Parameters --------
+{'TEMP', 'NUM_PART', 'CX'}
+---------------------------------
+2026-02-05 11:55:47,241 - maestrowf.datastructures.core.study:_stage:652 - INFO - 
+**********************************
+Combo [NUM_PART.100.TEMP.100.CX.1000]
+**********************************
+2026-02-05 11:55:47,241 - maestrowf.datastructures.core.study:_stage:686 - INFO - Searching for workspaces...
+cmd = ~/Documents/School/Grad/Spring2026/DSMC/HW1/particles 100 39.95 100 1000 0 0
+source ~/Documents/School/Grad/Spring2026/DSMC/DSMC/bin/activate
+cp ~/Documents/School/Grad/Spring2026/DSMC/HW1/postProc.py ./
+python postProc.py
+
+2026-02-05 11:55:47,241 - maestrowf.datastructures.core.study:_stage:717 - INFO - New cmd = ~/Documents/School/Grad/Spring2026/DSMC/HW1/particles 100 39.95 100 1000 0 0
+source ~/Documents/School/Grad/Spring2026/DSMC/DSMC/bin/activate
+cp ~/Documents/School/Grad/Spring2026/DSMC/HW1/postProc.py ./
+python postProc.py
+
+2026-02-05 11:55:47,241 - maestrowf.datastructures.core.study:_stage:652 - INFO - 
+**********************************
+Combo [NUM_PART.100.TEMP.100.CX.100]
+**********************************
+2026-02-05 11:55:47,241 - maestrowf.datastructures.core.study:_stage:686 - INFO - Searching for workspaces...
+cmd = ~/Documents/School/Grad/Spring2026/DSMC/HW1/particles 100 39.95 100 100 0 0
+source ~/Documents/School/Grad/Spring2026/DSMC/DSMC/bin/activate
+cp ~/Documents/School/Grad/Spring2026/DSMC/HW1/postProc.py ./
+python postProc.py
+
+2026-02-05 11:55:47,241 - maestrowf.datastructures.core.study:_stage:717 - INFO - New cmd = ~/Documents/School/Grad/Spring2026/DSMC/HW1/particles 100 39.95 100 100 0 0
+source ~/Documents/School/Grad/Spring2026/DSMC/DSMC/bin/activate
+cp ~/Documents/School/Grad/Spring2026/DSMC/HW1/postProc.py ./
+python postProc.py
+
+2026-02-05 11:55:47,241 - maestrowf.datastructures.core.study:_stage:652 - INFO - 
+**********************************
+Combo [NUM_PART.100.TEMP.1000.CX.1000]
+**********************************
+2026-02-05 11:55:47,241 - maestrowf.datastructures.core.study:_stage:686 - INFO - Searching for workspaces...
+cmd = ~/Documents/School/Grad/Spring2026/DSMC/HW1/particles 100 39.95 1000 1000 0 0
+source ~/Documents/School/Grad/Spring2026/DSMC/DSMC/bin/activate
+cp ~/Documents/School/Grad/Spring2026/DSMC/HW1/postProc.py ./
+python postProc.py
+
+2026-02-05 11:55:47,241 - maestrowf.datastructures.core.study:_stage:717 - INFO - New cmd = ~/Documents/School/Grad/Spring2026/DSMC/HW1/particles 100 39.95 1000 1000 0 0
+source ~/Documents/School/Grad/Spring2026/DSMC/DSMC/bin/activate
+cp ~/Documents/School/Grad/Spring2026/DSMC/HW1/postProc.py ./
+python postProc.py
+
+2026-02-05 11:55:47,241 - maestrowf.datastructures.core.study:_stage:652 - INFO - 
+**********************************
+Combo [NUM_PART.100.TEMP.1000.CX.100]
+**********************************
+2026-02-05 11:55:47,241 - maestrowf.datastructures.core.study:_stage:686 - INFO - Searching for workspaces...
+cmd = ~/Documents/School/Grad/Spring2026/DSMC/HW1/particles 100 39.95 1000 100 0 0
+source ~/Documents/School/Grad/Spring2026/DSMC/DSMC/bin/activate
+cp ~/Documents/School/Grad/Spring2026/DSMC/HW1/postProc.py ./
+python postProc.py
+
+2026-02-05 11:55:47,241 - maestrowf.datastructures.core.study:_stage:717 - INFO - New cmd = ~/Documents/School/Grad/Spring2026/DSMC/HW1/particles 100 39.95 1000 100 0 0
+source ~/Documents/School/Grad/Spring2026/DSMC/DSMC/bin/activate
+cp ~/Documents/School/Grad/Spring2026/DSMC/HW1/postProc.py ./
+python postProc.py
+
+2026-02-05 11:55:47,241 - maestrowf.datastructures.core.study:_stage:652 - INFO - 
+**********************************
+Combo [NUM_PART.500000.TEMP.100.CX.1000]
+**********************************
+2026-02-05 11:55:47,241 - maestrowf.datastructures.core.study:_stage:686 - INFO - Searching for workspaces...
+cmd = ~/Documents/School/Grad/Spring2026/DSMC/HW1/particles 500000 39.95 100 1000 0 0
+source ~/Documents/School/Grad/Spring2026/DSMC/DSMC/bin/activate
+cp ~/Documents/School/Grad/Spring2026/DSMC/HW1/postProc.py ./
+python postProc.py
+
+2026-02-05 11:55:47,241 - maestrowf.datastructures.core.study:_stage:717 - INFO - New cmd = ~/Documents/School/Grad/Spring2026/DSMC/HW1/particles 500000 39.95 100 1000 0 0
+source ~/Documents/School/Grad/Spring2026/DSMC/DSMC/bin/activate
+cp ~/Documents/School/Grad/Spring2026/DSMC/HW1/postProc.py ./
+python postProc.py
+
+2026-02-05 11:55:47,241 - maestrowf.datastructures.core.study:_stage:652 - INFO - 
+**********************************
+Combo [NUM_PART.500000.TEMP.100.CX.100]
+**********************************
+2026-02-05 11:55:47,241 - maestrowf.datastructures.core.study:_stage:686 - INFO - Searching for workspaces...
+cmd = ~/Documents/School/Grad/Spring2026/DSMC/HW1/particles 500000 39.95 100 100 0 0
+source ~/Documents/School/Grad/Spring2026/DSMC/DSMC/bin/activate
+cp ~/Documents/School/Grad/Spring2026/DSMC/HW1/postProc.py ./
+python postProc.py
+
+2026-02-05 11:55:47,241 - maestrowf.datastructures.core.study:_stage:717 - INFO - New cmd = ~/Documents/School/Grad/Spring2026/DSMC/HW1/particles 500000 39.95 100 100 0 0
+source ~/Documents/School/Grad/Spring2026/DSMC/DSMC/bin/activate
+cp ~/Documents/School/Grad/Spring2026/DSMC/HW1/postProc.py ./
+python postProc.py
+
+2026-02-05 11:55:47,241 - maestrowf.datastructures.core.study:_stage:652 - INFO - 
+**********************************
+Combo [NUM_PART.500000.TEMP.1000.CX.1000]
+**********************************
+2026-02-05 11:55:47,241 - maestrowf.datastructures.core.study:_stage:686 - INFO - Searching for workspaces...
+cmd = ~/Documents/School/Grad/Spring2026/DSMC/HW1/particles 500000 39.95 1000 1000 0 0
+source ~/Documents/School/Grad/Spring2026/DSMC/DSMC/bin/activate
+cp ~/Documents/School/Grad/Spring2026/DSMC/HW1/postProc.py ./
+python postProc.py
+
+2026-02-05 11:55:47,241 - maestrowf.datastructures.core.study:_stage:717 - INFO - New cmd = ~/Documents/School/Grad/Spring2026/DSMC/HW1/particles 500000 39.95 1000 1000 0 0
+source ~/Documents/School/Grad/Spring2026/DSMC/DSMC/bin/activate
+cp ~/Documents/School/Grad/Spring2026/DSMC/HW1/postProc.py ./
+python postProc.py
+
+2026-02-05 11:55:47,241 - maestrowf.datastructures.core.study:_stage:652 - INFO - 
+**********************************
+Combo [NUM_PART.500000.TEMP.1000.CX.100]
+**********************************
+2026-02-05 11:55:47,241 - maestrowf.datastructures.core.study:_stage:686 - INFO - Searching for workspaces...
+cmd = ~/Documents/School/Grad/Spring2026/DSMC/HW1/particles 500000 39.95 1000 100 0 0
+source ~/Documents/School/Grad/Spring2026/DSMC/DSMC/bin/activate
+cp ~/Documents/School/Grad/Spring2026/DSMC/HW1/postProc.py ./
+python postProc.py
+
+2026-02-05 11:55:47,241 - maestrowf.datastructures.core.study:_stage:717 - INFO - New cmd = ~/Documents/School/Grad/Spring2026/DSMC/HW1/particles 500000 39.95 1000 100 0 0
+source ~/Documents/School/Grad/Spring2026/DSMC/DSMC/bin/activate
+cp ~/Documents/School/Grad/Spring2026/DSMC/HW1/postProc.py ./
+python postProc.py
+
+2026-02-05 11:55:47,241 - maestrowf.utils:create_parentdir:127 - INFO - Directory does not exist. Creating directories to /Users/abbieb/Documents/School/Grad/Spring2026/DSMC/HW1/DSMC_HW1_Problem1_20260205-115545/meta
+2026-02-05 11:55:47,241 - maestrowf.utils:create_parentdir:127 - INFO - Directory does not exist. Creating directories to /Users/abbieb/Documents/School/Grad/Spring2026/DSMC/HW1/DSMC_HW1_Problem1_20260205-115545/meta/study
+2026-02-05 11:55:47,244 - maestrowf.conductor:monitor_study:426 - INFO - Checking DAG status at 2026-02-05 11:55:47.244810
+2026-02-05 11:55:47,244 - maestrowf.datastructures.core.executiongraph:check_study_status:995 - INFO - No jobs found.
+2026-02-05 11:55:47,244 - maestrowf.datastructures.core.executiongraph:execute_ready_steps:932 - INFO - Launching all ready steps...
+2026-02-05 11:55:47,244 - maestrowf.datastructures.core.executiongraph:_execute_record:588 - INFO - Calling execute for StepRecord 'mag-sweep_CX.1000.NUM_PART.100.TEMP.100'
+2026-02-05 11:55:47,244 - maestrowf.utils:create_parentdir:127 - INFO - Directory does not exist. Creating directories to /Users/abbieb/Documents/School/Grad/Spring2026/DSMC/HW1/DSMC_HW1_Problem1_20260205-115545/mag-sweep/CX.1000.NUM_PART.100.TEMP.100
+2026-02-05 11:55:47,244 - maestrowf.datastructures.core.executiongraph:generate_script:114 - INFO - Generating script for mag-sweep_CX.1000.NUM_PART.100.TEMP.100 into /Users/abbieb/Documents/School/Grad/Spring2026/DSMC/HW1/DSMC_HW1_Problem1_20260205-115545/mag-sweep/CX.1000.NUM_PART.100.TEMP.100
+2026-02-05 11:55:47,245 - maestrowf.datastructures.core.executiongraph:generate_script:118 - INFO - Script: /Users/abbieb/Documents/School/Grad/Spring2026/DSMC/HW1/DSMC_HW1_Problem1_20260205-115545/mag-sweep/CX.1000.NUM_PART.100.TEMP.100/mag-sweep_CX.1000.NUM_PART.100.TEMP.100.sh
+Restart: None
+Scheduled?: False
+2026-02-05 11:55:47,245 - maestrowf.datastructures.core.executiongraph:_execute_record:613 - INFO - Attempting submission of 'mag-sweep_CX.1000.NUM_PART.100.TEMP.100' (attempt 1 of 1)...
+2026-02-05 11:55:47,910 - maestrowf.interfaces.script.localscriptadapter:submit:151 - INFO - Execution returned status OK.
+2026-02-05 11:55:49,027 - maestrowf.datastructures.core.executiongraph:_execute_record:640 - INFO - Local step mag-sweep_CX.1000.NUM_PART.100.TEMP.100 executed with status OK. Complete.
+2026-02-05 11:55:49,028 - maestrowf.datastructures.core.executiongraph:_execute_record:588 - INFO - Calling execute for StepRecord 'mag-sweep_CX.100.NUM_PART.100.TEMP.100'
+2026-02-05 11:55:49,029 - maestrowf.utils:create_parentdir:127 - INFO - Directory does not exist. Creating directories to /Users/abbieb/Documents/School/Grad/Spring2026/DSMC/HW1/DSMC_HW1_Problem1_20260205-115545/mag-sweep/CX.100.NUM_PART.100.TEMP.100
+2026-02-05 11:55:49,029 - maestrowf.datastructures.core.executiongraph:generate_script:114 - INFO - Generating script for mag-sweep_CX.100.NUM_PART.100.TEMP.100 into /Users/abbieb/Documents/School/Grad/Spring2026/DSMC/HW1/DSMC_HW1_Problem1_20260205-115545/mag-sweep/CX.100.NUM_PART.100.TEMP.100
+2026-02-05 11:55:49,031 - maestrowf.datastructures.core.executiongraph:generate_script:118 - INFO - Script: /Users/abbieb/Documents/School/Grad/Spring2026/DSMC/HW1/DSMC_HW1_Problem1_20260205-115545/mag-sweep/CX.100.NUM_PART.100.TEMP.100/mag-sweep_CX.100.NUM_PART.100.TEMP.100.sh
+Restart: None
+Scheduled?: False
+2026-02-05 11:55:49,031 - maestrowf.datastructures.core.executiongraph:_execute_record:613 - INFO - Attempting submission of 'mag-sweep_CX.100.NUM_PART.100.TEMP.100' (attempt 1 of 1)...
+2026-02-05 11:55:49,653 - maestrowf.interfaces.script.localscriptadapter:submit:151 - INFO - Execution returned status OK.
+2026-02-05 11:55:51,070 - maestrowf.datastructures.core.executiongraph:_execute_record:640 - INFO - Local step mag-sweep_CX.100.NUM_PART.100.TEMP.100 executed with status OK. Complete.
+2026-02-05 11:55:51,071 - maestrowf.datastructures.core.executiongraph:_execute_record:588 - INFO - Calling execute for StepRecord 'mag-sweep_CX.1000.NUM_PART.100.TEMP.1000'
+2026-02-05 11:55:51,071 - maestrowf.utils:create_parentdir:127 - INFO - Directory does not exist. Creating directories to /Users/abbieb/Documents/School/Grad/Spring2026/DSMC/HW1/DSMC_HW1_Problem1_20260205-115545/mag-sweep/CX.1000.NUM_PART.100.TEMP.1000
+2026-02-05 11:55:51,072 - maestrowf.datastructures.core.executiongraph:generate_script:114 - INFO - Generating script for mag-sweep_CX.1000.NUM_PART.100.TEMP.1000 into /Users/abbieb/Documents/School/Grad/Spring2026/DSMC/HW1/DSMC_HW1_Problem1_20260205-115545/mag-sweep/CX.1000.NUM_PART.100.TEMP.1000
+2026-02-05 11:55:51,072 - maestrowf.datastructures.core.executiongraph:generate_script:118 - INFO - Script: /Users/abbieb/Documents/School/Grad/Spring2026/DSMC/HW1/DSMC_HW1_Problem1_20260205-115545/mag-sweep/CX.1000.NUM_PART.100.TEMP.1000/mag-sweep_CX.1000.NUM_PART.100.TEMP.1000.sh
+Restart: None
+Scheduled?: False
+2026-02-05 11:55:51,073 - maestrowf.datastructures.core.executiongraph:_execute_record:613 - INFO - Attempting submission of 'mag-sweep_CX.1000.NUM_PART.100.TEMP.1000' (attempt 1 of 1)...
+2026-02-05 11:55:51,673 - maestrowf.interfaces.script.localscriptadapter:submit:151 - INFO - Execution returned status OK.
+2026-02-05 11:55:53,274 - maestrowf.datastructures.core.executiongraph:_execute_record:640 - INFO - Local step mag-sweep_CX.1000.NUM_PART.100.TEMP.1000 executed with status OK. Complete.
+2026-02-05 11:55:53,274 - maestrowf.datastructures.core.executiongraph:_execute_record:588 - INFO - Calling execute for StepRecord 'mag-sweep_CX.100.NUM_PART.100.TEMP.1000'
+2026-02-05 11:55:53,274 - maestrowf.utils:create_parentdir:127 - INFO - Directory does not exist. Creating directories to /Users/abbieb/Documents/School/Grad/Spring2026/DSMC/HW1/DSMC_HW1_Problem1_20260205-115545/mag-sweep/CX.100.NUM_PART.100.TEMP.1000
+2026-02-05 11:55:53,275 - maestrowf.datastructures.core.executiongraph:generate_script:114 - INFO - Generating script for mag-sweep_CX.100.NUM_PART.100.TEMP.1000 into /Users/abbieb/Documents/School/Grad/Spring2026/DSMC/HW1/DSMC_HW1_Problem1_20260205-115545/mag-sweep/CX.100.NUM_PART.100.TEMP.1000
+2026-02-05 11:55:53,275 - maestrowf.datastructures.core.executiongraph:generate_script:118 - INFO - Script: /Users/abbieb/Documents/School/Grad/Spring2026/DSMC/HW1/DSMC_HW1_Problem1_20260205-115545/mag-sweep/CX.100.NUM_PART.100.TEMP.1000/mag-sweep_CX.100.NUM_PART.100.TEMP.1000.sh
+Restart: None
+Scheduled?: False
+2026-02-05 11:55:53,275 - maestrowf.datastructures.core.executiongraph:_execute_record:613 - INFO - Attempting submission of 'mag-sweep_CX.100.NUM_PART.100.TEMP.1000' (attempt 1 of 1)...
+2026-02-05 11:55:53,886 - maestrowf.interfaces.script.localscriptadapter:submit:151 - INFO - Execution returned status OK.
+2026-02-05 11:55:55,083 - maestrowf.datastructures.core.executiongraph:_execute_record:640 - INFO - Local step mag-sweep_CX.100.NUM_PART.100.TEMP.1000 executed with status OK. Complete.
+2026-02-05 11:55:55,084 - maestrowf.datastructures.core.executiongraph:_execute_record:588 - INFO - Calling execute for StepRecord 'mag-sweep_CX.1000.NUM_PART.500000.TEMP.100'
+2026-02-05 11:55:55,084 - maestrowf.utils:create_parentdir:127 - INFO - Directory does not exist. Creating directories to /Users/abbieb/Documents/School/Grad/Spring2026/DSMC/HW1/DSMC_HW1_Problem1_20260205-115545/mag-sweep/CX.1000.NUM_PART.500000.TEMP.100
+2026-02-05 11:55:55,085 - maestrowf.datastructures.core.executiongraph:generate_script:114 - INFO - Generating script for mag-sweep_CX.1000.NUM_PART.500000.TEMP.100 into /Users/abbieb/Documents/School/Grad/Spring2026/DSMC/HW1/DSMC_HW1_Problem1_20260205-115545/mag-sweep/CX.1000.NUM_PART.500000.TEMP.100
+2026-02-05 11:55:55,085 - maestrowf.datastructures.core.executiongraph:generate_script:118 - INFO - Script: /Users/abbieb/Documents/School/Grad/Spring2026/DSMC/HW1/DSMC_HW1_Problem1_20260205-115545/mag-sweep/CX.1000.NUM_PART.500000.TEMP.100/mag-sweep_CX.1000.NUM_PART.500000.TEMP.100.sh
+Restart: None
+Scheduled?: False
+2026-02-05 11:55:55,086 - maestrowf.datastructures.core.executiongraph:_execute_record:613 - INFO - Attempting submission of 'mag-sweep_CX.1000.NUM_PART.500000.TEMP.100' (attempt 1 of 1)...
+2026-02-05 11:55:56,812 - maestrowf.interfaces.script.localscriptadapter:submit:151 - INFO - Execution returned status OK.
+2026-02-05 11:55:58,610 - maestrowf.datastructures.core.executiongraph:_execute_record:640 - INFO - Local step mag-sweep_CX.1000.NUM_PART.500000.TEMP.100 executed with status OK. Complete.
+2026-02-05 11:55:58,610 - maestrowf.datastructures.core.executiongraph:_execute_record:588 - INFO - Calling execute for StepRecord 'mag-sweep_CX.100.NUM_PART.500000.TEMP.100'
+2026-02-05 11:55:58,611 - maestrowf.utils:create_parentdir:127 - INFO - Directory does not exist. Creating directories to /Users/abbieb/Documents/School/Grad/Spring2026/DSMC/HW1/DSMC_HW1_Problem1_20260205-115545/mag-sweep/CX.100.NUM_PART.500000.TEMP.100
+2026-02-05 11:55:58,611 - maestrowf.datastructures.core.executiongraph:generate_script:114 - INFO - Generating script for mag-sweep_CX.100.NUM_PART.500000.TEMP.100 into /Users/abbieb/Documents/School/Grad/Spring2026/DSMC/HW1/DSMC_HW1_Problem1_20260205-115545/mag-sweep/CX.100.NUM_PART.500000.TEMP.100
+2026-02-05 11:55:58,612 - maestrowf.datastructures.core.executiongraph:generate_script:118 - INFO - Script: /Users/abbieb/Documents/School/Grad/Spring2026/DSMC/HW1/DSMC_HW1_Problem1_20260205-115545/mag-sweep/CX.100.NUM_PART.500000.TEMP.100/mag-sweep_CX.100.NUM_PART.500000.TEMP.100.sh
+Restart: None
+Scheduled?: False
+2026-02-05 11:55:58,612 - maestrowf.datastructures.core.executiongraph:_execute_record:613 - INFO - Attempting submission of 'mag-sweep_CX.100.NUM_PART.500000.TEMP.100' (attempt 1 of 1)...
+2026-02-05 11:56:00,326 - maestrowf.interfaces.script.localscriptadapter:submit:151 - INFO - Execution returned status OK.
+2026-02-05 11:56:01,611 - maestrowf.datastructures.core.executiongraph:_execute_record:640 - INFO - Local step mag-sweep_CX.100.NUM_PART.500000.TEMP.100 executed with status OK. Complete.
+2026-02-05 11:56:01,611 - maestrowf.datastructures.core.executiongraph:_execute_record:588 - INFO - Calling execute for StepRecord 'mag-sweep_CX.1000.NUM_PART.500000.TEMP.1000'
+2026-02-05 11:56:01,612 - maestrowf.utils:create_parentdir:127 - INFO - Directory does not exist. Creating directories to /Users/abbieb/Documents/School/Grad/Spring2026/DSMC/HW1/DSMC_HW1_Problem1_20260205-115545/mag-sweep/CX.1000.NUM_PART.500000.TEMP.1000
+2026-02-05 11:56:01,612 - maestrowf.datastructures.core.executiongraph:generate_script:114 - INFO - Generating script for mag-sweep_CX.1000.NUM_PART.500000.TEMP.1000 into /Users/abbieb/Documents/School/Grad/Spring2026/DSMC/HW1/DSMC_HW1_Problem1_20260205-115545/mag-sweep/CX.1000.NUM_PART.500000.TEMP.1000
+2026-02-05 11:56:01,613 - maestrowf.datastructures.core.executiongraph:generate_script:118 - INFO - Script: /Users/abbieb/Documents/School/Grad/Spring2026/DSMC/HW1/DSMC_HW1_Problem1_20260205-115545/mag-sweep/CX.1000.NUM_PART.500000.TEMP.1000/mag-sweep_CX.1000.NUM_PART.500000.TEMP.1000.sh
+Restart: None
+Scheduled?: False
+2026-02-05 11:56:01,613 - maestrowf.datastructures.core.executiongraph:_execute_record:613 - INFO - Attempting submission of 'mag-sweep_CX.1000.NUM_PART.500000.TEMP.1000' (attempt 1 of 1)...
+2026-02-05 11:56:03,358 - maestrowf.interfaces.script.localscriptadapter:submit:151 - INFO - Execution returned status OK.
+2026-02-05 11:56:04,826 - maestrowf.datastructures.core.executiongraph:_execute_record:640 - INFO - Local step mag-sweep_CX.1000.NUM_PART.500000.TEMP.1000 executed with status OK. Complete.
+2026-02-05 11:56:04,826 - maestrowf.datastructures.core.executiongraph:_execute_record:588 - INFO - Calling execute for StepRecord 'mag-sweep_CX.100.NUM_PART.500000.TEMP.1000'
+2026-02-05 11:56:04,826 - maestrowf.utils:create_parentdir:127 - INFO - Directory does not exist. Creating directories to /Users/abbieb/Documents/School/Grad/Spring2026/DSMC/HW1/DSMC_HW1_Problem1_20260205-115545/mag-sweep/CX.100.NUM_PART.500000.TEMP.1000
+2026-02-05 11:56:04,827 - maestrowf.datastructures.core.executiongraph:generate_script:114 - INFO - Generating script for mag-sweep_CX.100.NUM_PART.500000.TEMP.1000 into /Users/abbieb/Documents/School/Grad/Spring2026/DSMC/HW1/DSMC_HW1_Problem1_20260205-115545/mag-sweep/CX.100.NUM_PART.500000.TEMP.1000
+2026-02-05 11:56:04,827 - maestrowf.datastructures.core.executiongraph:generate_script:118 - INFO - Script: /Users/abbieb/Documents/School/Grad/Spring2026/DSMC/HW1/DSMC_HW1_Problem1_20260205-115545/mag-sweep/CX.100.NUM_PART.500000.TEMP.1000/mag-sweep_CX.100.NUM_PART.500000.TEMP.1000.sh
+Restart: None
+Scheduled?: False
+2026-02-05 11:56:04,827 - maestrowf.datastructures.core.executiongraph:_execute_record:613 - INFO - Attempting submission of 'mag-sweep_CX.100.NUM_PART.500000.TEMP.1000' (attempt 1 of 1)...
+2026-02-05 11:56:06,540 - maestrowf.interfaces.script.localscriptadapter:submit:151 - INFO - Execution returned status OK.
+2026-02-05 11:56:08,199 - maestrowf.datastructures.core.executiongraph:_execute_record:640 - INFO - Local step mag-sweep_CX.100.NUM_PART.500000.TEMP.1000 executed with status OK. Complete.
+2026-02-05 11:56:08,200 - root:_check_study_completion:740 - INFO - 'DSMC_HW1_Problem1' is complete. Returning.
+2026-02-05 11:56:08,208 - maestrowf.conductor:main:461 - INFO - Study completed with state 'StudyStatus.FINISHED'.
+2026-02-05 11:56:08,208 - maestrowf.conductor:main:468 - INFO - Study exiting, cleaning up...
+2026-02-05 11:56:08,208 - maestrowf.conductor:main:470 - INFO - Squeaky clean!

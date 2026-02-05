@@ -1,0 +1,73 @@
+2026-02-04 18:39:21,128 - maestrowf.conductor:setup_logging:93 - INFO - INFO Logging Level -- Enabled
+2026-02-04 18:39:21,129 - maestrowf.conductor:setup_logging:94 - WARNING - WARNING Logging Level -- Enabled
+2026-02-04 18:39:21,129 - maestrowf.conductor:setup_logging:95 - CRITICAL - CRITICAL Logging Level -- Enabled
+2026-02-04 18:39:21,129 - maestrowf.datastructures.core.executiongraph:__init__:379 - INFO - 
+------------------------------------------
+Submission attempts =       1
+Submission throttle limit = 0
+Use temporary directory =   False
+Tmp Dir = 
+------------------------------------------
+2026-02-04 18:39:21,129 - maestrowf.datastructures.core.executiongraph:log_description:541 - INFO - 
+==================================================
+name: DSMC_HW1_Problem1
+description: Study of Low/High Temp/Vel/Particle Count
+==================================================
+
+2026-02-04 18:39:21,129 - maestrowf.datastructures.core.study:_stage:477 - INFO - 
+==================================================
+Constructing parameter study 'DSMC_HW1_Problem1'
+==================================================
+
+2026-02-04 18:39:21,129 - maestrowf.datastructures.core.study:_stage:503 - INFO - 
+==================================================
+Processing step '_source'
+==================================================
+
+2026-02-04 18:39:21,129 - maestrowf.datastructures.core.study:_stage:511 - INFO - Encountered '_source'. Adding and continuing.
+2026-02-04 18:39:21,129 - maestrowf.datastructures.core.study:_stage:503 - INFO - 
+==================================================
+Processing step 'mag-sweep'
+==================================================
+
+2026-02-04 18:39:21,129 - maestrowf.datastructures.core.study:_stage:576 - INFO - 
+-------------------------------------------------
+Adding step 'mag-sweep' (No parameters used)
+-------------------------------------------------
+
+2026-02-04 18:39:21,129 - maestrowf.datastructures.core.study:_stage:595 - INFO - Searching for workspaces...
+cmd = ~/Documents/School/Grad/Spring2026/DSMC/HW1/particles $(NUM_PART) 39.95 $(TEMP) $(CX) 0 0
+
+2026-02-04 18:39:21,129 - maestrowf.utils:create_parentdir:127 - INFO - Directory does not exist. Creating directories to /Users/abbieb/Documents/School/Grad/Spring2026/DSMC/HW1/DSMC_HW1_Problem1_20260204-183918/meta
+2026-02-04 18:39:21,129 - maestrowf.utils:create_parentdir:127 - INFO - Directory does not exist. Creating directories to /Users/abbieb/Documents/School/Grad/Spring2026/DSMC/HW1/DSMC_HW1_Problem1_20260204-183918/meta/study
+2026-02-04 18:39:21,130 - maestrowf.conductor:monitor_study:426 - INFO - Checking DAG status at 2026-02-04 18:39:21.130663
+2026-02-04 18:39:21,130 - maestrowf.datastructures.core.executiongraph:check_study_status:995 - INFO - No jobs found.
+2026-02-04 18:39:21,130 - maestrowf.datastructures.core.executiongraph:execute_ready_steps:932 - INFO - Launching all ready steps...
+2026-02-04 18:39:21,130 - maestrowf.datastructures.core.executiongraph:_execute_record:588 - INFO - Calling execute for StepRecord 'mag-sweep'
+2026-02-04 18:39:21,130 - maestrowf.utils:create_parentdir:127 - INFO - Directory does not exist. Creating directories to /Users/abbieb/Documents/School/Grad/Spring2026/DSMC/HW1/DSMC_HW1_Problem1_20260204-183918/mag-sweep
+2026-02-04 18:39:21,130 - maestrowf.datastructures.core.executiongraph:generate_script:114 - INFO - Generating script for mag-sweep into /Users/abbieb/Documents/School/Grad/Spring2026/DSMC/HW1/DSMC_HW1_Problem1_20260204-183918/mag-sweep
+2026-02-04 18:39:21,130 - maestrowf.datastructures.core.executiongraph:generate_script:118 - INFO - Script: /Users/abbieb/Documents/School/Grad/Spring2026/DSMC/HW1/DSMC_HW1_Problem1_20260204-183918/mag-sweep/mag-sweep.sh
+Restart: None
+Scheduled?: False
+2026-02-04 18:39:21,130 - maestrowf.datastructures.core.executiongraph:_execute_record:613 - INFO - Attempting submission of 'mag-sweep' (attempt 1 of 1)...
+2026-02-04 18:39:21,313 - maestrowf.interfaces.script.localscriptadapter:submit:154 - WARNING - Execution returned an error: /Users/abbieb/Documents/School/Grad/Spring2026/DSMC/HW1/DSMC_HW1_Problem1_20260204-183918/mag-sweep/mag-sweep.sh: line 3: NUM_PART: command not found
+/Users/abbieb/Documents/School/Grad/Spring2026/DSMC/HW1/DSMC_HW1_Problem1_20260204-183918/mag-sweep/mag-sweep.sh: line 3: TEMP: command not found
+/Users/abbieb/Documents/School/Grad/Spring2026/DSMC/HW1/DSMC_HW1_Problem1_20260204-183918/mag-sweep/mag-sweep.sh: line 3: CX: command not found
+At line 21 of file particleDist.f90
+Fortran runtime error: Bad integer for item 1 in list input
+
+Error termination. Backtrace:
+#0  0x102f5accf
+#1  0x102f5b877
+#2  0x102f5c147
+#3  0x10304608b
+#4  0x1030488af
+#5  0x10304963f
+#6  0x102cf099f
+#7  0x102cf1217
+
+2026-02-04 18:39:22,745 - maestrowf.datastructures.core.executiongraph:_execute_record:648 - WARNING - 'mag-sweep' failed to submit properly. Step failed.
+2026-02-04 18:39:22,746 - root:_check_study_completion:735 - INFO - 'DSMC_HW1_Problem1' is complete with failures. Returning.
+2026-02-04 18:39:22,750 - maestrowf.conductor:main:461 - INFO - Study completed with state 'StudyStatus.FAILURE'.
+2026-02-04 18:39:22,750 - maestrowf.conductor:main:468 - INFO - Study exiting, cleaning up...
+2026-02-04 18:39:22,750 - maestrowf.conductor:main:470 - INFO - Squeaky clean!

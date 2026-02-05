@@ -1,0 +1,7 @@
+# DSMC Params v1
+# DtRef WpRef
+   1.6360234584391038E-005   1.0000000000000000     
+# iend
+         500
+# isam irun nstep iwrt nsam
+           2           0         500        1000         499

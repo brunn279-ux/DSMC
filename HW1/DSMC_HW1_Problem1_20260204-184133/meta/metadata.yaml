@@ -1,0 +1,23 @@
+dependencies:
+  _source: !!set {}
+  mag-sweep: !!set {}
+hub_dependencies:
+  _source: !!set {}
+  mag-sweep: !!set {}
+step_combinations:
+  _source: /Users/abbieb/Documents/School/Grad/Spring2026/DSMC/HW1/DSMC_HW1_Problem1_20260204-184133
+  mag-sweep:
+    ? mag-sweep_CX.1000 100 1000 100 1000 100 1000 100.NUM_PART.100 100 100 100 500000
+      500000 500000 500000.TEMP.100 100 1000 1000 100 100 1000 1000
+    : mag-sweep/CX.1000_100_1000_100_1000_100_1000_100.NUM_PART.100_100_100_100_500000_500000_500000_500000.TEMP.100_100_1000_1000_100_100_1000_1000
+used_parameters:
+  _source: !!set {}
+  mag-sweep: !!set
+    CX: null
+    NUM_PART: null
+    TEMP: null
+workspaces:
+  _source: /Users/abbieb/Documents/School/Grad/Spring2026/DSMC/HW1/DSMC_HW1_Problem1_20260204-184133
+  ? mag-sweep_CX.1000 100 1000 100 1000 100 1000 100.NUM_PART.100 100 100 100 500000
+    500000 500000 500000.TEMP.100 100 1000 1000 100 100 1000 1000
+  : mag-sweep/CX.1000_100_1000_100_1000_100_1000_100.NUM_PART.100_100_100_100_500000_500000_500000_500000.TEMP.100_100_1000_1000_100_100_1000_1000

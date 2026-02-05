@@ -1,0 +1,4 @@
+ # Output formant (T is binary, F is ascii)
+ F
+ # 2D flag (T is 2D, F is 3D)
+ T

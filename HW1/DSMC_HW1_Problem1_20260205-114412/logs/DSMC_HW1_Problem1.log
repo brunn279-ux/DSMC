@@ -1,0 +1,264 @@
+2026-02-05 11:44:14,236 - maestrowf.conductor:setup_logging:93 - INFO - INFO Logging Level -- Enabled
+2026-02-05 11:44:14,236 - maestrowf.conductor:setup_logging:94 - WARNING - WARNING Logging Level -- Enabled
+2026-02-05 11:44:14,236 - maestrowf.conductor:setup_logging:95 - CRITICAL - CRITICAL Logging Level -- Enabled
+2026-02-05 11:44:14,236 - maestrowf.datastructures.core.executiongraph:__init__:379 - INFO - 
+------------------------------------------
+Submission attempts =       1
+Submission throttle limit = 0
+Use temporary directory =   False
+Tmp Dir = 
+------------------------------------------
+2026-02-05 11:44:14,236 - maestrowf.datastructures.core.executiongraph:log_description:541 - INFO - 
+==================================================
+name: DSMC_HW1_Problem1
+description: Study of Low/High Temp/Vel/Particle Count
+==================================================
+
+2026-02-05 11:44:14,236 - maestrowf.datastructures.core.study:_stage:477 - INFO - 
+==================================================
+Constructing parameter study 'DSMC_HW1_Problem1'
+==================================================
+
+2026-02-05 11:44:14,236 - maestrowf.datastructures.core.study:_stage:503 - INFO - 
+==================================================
+Processing step '_source'
+==================================================
+
+2026-02-05 11:44:14,236 - maestrowf.datastructures.core.study:_stage:511 - INFO - Encountered '_source'. Adding and continuing.
+2026-02-05 11:44:14,236 - maestrowf.datastructures.core.study:_stage:503 - INFO - 
+==================================================
+Processing step 'mag-sweep'
+==================================================
+
+2026-02-05 11:44:14,237 - maestrowf.datastructures.core.study:_stage:641 - INFO - 
+==================================================
+Expanding step 'mag-sweep'
+==================================================
+-------- Used Parameters --------
+{'TEMP', 'CX', 'NUM_PART'}
+---------------------------------
+2026-02-05 11:44:14,237 - maestrowf.datastructures.core.study:_stage:652 - INFO - 
+**********************************
+Combo [NUM_PART.100.TEMP.100.CX.1000]
+**********************************
+2026-02-05 11:44:14,237 - maestrowf.datastructures.core.study:_stage:686 - INFO - Searching for workspaces...
+cmd = ~/Documents/School/Grad/Spring2026/DSMC/HW1/particles 100 39.95 100 1000 0 0
+source ~/Documents/School/Grad/Spring2026/DSMC/DSMC/bin/activate
+cp ~/Documents/School/Grad/Spring2026/DSMC/HW1/postProc.py
+python postProc.py
+
+2026-02-05 11:44:14,237 - maestrowf.datastructures.core.study:_stage:717 - INFO - New cmd = ~/Documents/School/Grad/Spring2026/DSMC/HW1/particles 100 39.95 100 1000 0 0
+source ~/Documents/School/Grad/Spring2026/DSMC/DSMC/bin/activate
+cp ~/Documents/School/Grad/Spring2026/DSMC/HW1/postProc.py
+python postProc.py
+
+2026-02-05 11:44:14,237 - maestrowf.datastructures.core.study:_stage:652 - INFO - 
+**********************************
+Combo [NUM_PART.100.TEMP.100.CX.100]
+**********************************
+2026-02-05 11:44:14,237 - maestrowf.datastructures.core.study:_stage:686 - INFO - Searching for workspaces...
+cmd = ~/Documents/School/Grad/Spring2026/DSMC/HW1/particles 100 39.95 100 100 0 0
+source ~/Documents/School/Grad/Spring2026/DSMC/DSMC/bin/activate
+cp ~/Documents/School/Grad/Spring2026/DSMC/HW1/postProc.py
+python postProc.py
+
+2026-02-05 11:44:14,237 - maestrowf.datastructures.core.study:_stage:717 - INFO - New cmd = ~/Documents/School/Grad/Spring2026/DSMC/HW1/particles 100 39.95 100 100 0 0
+source ~/Documents/School/Grad/Spring2026/DSMC/DSMC/bin/activate
+cp ~/Documents/School/Grad/Spring2026/DSMC/HW1/postProc.py
+python postProc.py
+
+2026-02-05 11:44:14,237 - maestrowf.datastructures.core.study:_stage:652 - INFO - 
+**********************************
+Combo [NUM_PART.100.TEMP.1000.CX.1000]
+**********************************
+2026-02-05 11:44:14,237 - maestrowf.datastructures.core.study:_stage:686 - INFO - Searching for workspaces...
+cmd = ~/Documents/School/Grad/Spring2026/DSMC/HW1/particles 100 39.95 1000 1000 0 0
+source ~/Documents/School/Grad/Spring2026/DSMC/DSMC/bin/activate
+cp ~/Documents/School/Grad/Spring2026/DSMC/HW1/postProc.py
+python postProc.py
+
+2026-02-05 11:44:14,237 - maestrowf.datastructures.core.study:_stage:717 - INFO - New cmd = ~/Documents/School/Grad/Spring2026/DSMC/HW1/particles 100 39.95 1000 1000 0 0
+source ~/Documents/School/Grad/Spring2026/DSMC/DSMC/bin/activate
+cp ~/Documents/School/Grad/Spring2026/DSMC/HW1/postProc.py
+python postProc.py
+
+2026-02-05 11:44:14,237 - maestrowf.datastructures.core.study:_stage:652 - INFO - 
+**********************************
+Combo [NUM_PART.100.TEMP.1000.CX.100]
+**********************************
+2026-02-05 11:44:14,237 - maestrowf.datastructures.core.study:_stage:686 - INFO - Searching for workspaces...
+cmd = ~/Documents/School/Grad/Spring2026/DSMC/HW1/particles 100 39.95 1000 100 0 0
+source ~/Documents/School/Grad/Spring2026/DSMC/DSMC/bin/activate
+cp ~/Documents/School/Grad/Spring2026/DSMC/HW1/postProc.py
+python postProc.py
+
+2026-02-05 11:44:14,237 - maestrowf.datastructures.core.study:_stage:717 - INFO - New cmd = ~/Documents/School/Grad/Spring2026/DSMC/HW1/particles 100 39.95 1000 100 0 0
+source ~/Documents/School/Grad/Spring2026/DSMC/DSMC/bin/activate
+cp ~/Documents/School/Grad/Spring2026/DSMC/HW1/postProc.py
+python postProc.py
+
+2026-02-05 11:44:14,237 - maestrowf.datastructures.core.study:_stage:652 - INFO - 
+**********************************
+Combo [NUM_PART.500000.TEMP.100.CX.1000]
+**********************************
+2026-02-05 11:44:14,237 - maestrowf.datastructures.core.study:_stage:686 - INFO - Searching for workspaces...
+cmd = ~/Documents/School/Grad/Spring2026/DSMC/HW1/particles 500000 39.95 100 1000 0 0
+source ~/Documents/School/Grad/Spring2026/DSMC/DSMC/bin/activate
+cp ~/Documents/School/Grad/Spring2026/DSMC/HW1/postProc.py
+python postProc.py
+
+2026-02-05 11:44:14,237 - maestrowf.datastructures.core.study:_stage:717 - INFO - New cmd = ~/Documents/School/Grad/Spring2026/DSMC/HW1/particles 500000 39.95 100 1000 0 0
+source ~/Documents/School/Grad/Spring2026/DSMC/DSMC/bin/activate
+cp ~/Documents/School/Grad/Spring2026/DSMC/HW1/postProc.py
+python postProc.py
+
+2026-02-05 11:44:14,237 - maestrowf.datastructures.core.study:_stage:652 - INFO - 
+**********************************
+Combo [NUM_PART.500000.TEMP.100.CX.100]
+**********************************
+2026-02-05 11:44:14,237 - maestrowf.datastructures.core.study:_stage:686 - INFO - Searching for workspaces...
+cmd = ~/Documents/School/Grad/Spring2026/DSMC/HW1/particles 500000 39.95 100 100 0 0
+source ~/Documents/School/Grad/Spring2026/DSMC/DSMC/bin/activate
+cp ~/Documents/School/Grad/Spring2026/DSMC/HW1/postProc.py
+python postProc.py
+
+2026-02-05 11:44:14,237 - maestrowf.datastructures.core.study:_stage:717 - INFO - New cmd = ~/Documents/School/Grad/Spring2026/DSMC/HW1/particles 500000 39.95 100 100 0 0
+source ~/Documents/School/Grad/Spring2026/DSMC/DSMC/bin/activate
+cp ~/Documents/School/Grad/Spring2026/DSMC/HW1/postProc.py
+python postProc.py
+
+2026-02-05 11:44:14,237 - maestrowf.datastructures.core.study:_stage:652 - INFO - 
+**********************************
+Combo [NUM_PART.500000.TEMP.1000.CX.1000]
+**********************************
+2026-02-05 11:44:14,237 - maestrowf.datastructures.core.study:_stage:686 - INFO - Searching for workspaces...
+cmd = ~/Documents/School/Grad/Spring2026/DSMC/HW1/particles 500000 39.95 1000 1000 0 0
+source ~/Documents/School/Grad/Spring2026/DSMC/DSMC/bin/activate
+cp ~/Documents/School/Grad/Spring2026/DSMC/HW1/postProc.py
+python postProc.py
+
+2026-02-05 11:44:14,237 - maestrowf.datastructures.core.study:_stage:717 - INFO - New cmd = ~/Documents/School/Grad/Spring2026/DSMC/HW1/particles 500000 39.95 1000 1000 0 0
+source ~/Documents/School/Grad/Spring2026/DSMC/DSMC/bin/activate
+cp ~/Documents/School/Grad/Spring2026/DSMC/HW1/postProc.py
+python postProc.py
+
+2026-02-05 11:44:14,237 - maestrowf.datastructures.core.study:_stage:652 - INFO - 
+**********************************
+Combo [NUM_PART.500000.TEMP.1000.CX.100]
+**********************************
+2026-02-05 11:44:14,237 - maestrowf.datastructures.core.study:_stage:686 - INFO - Searching for workspaces...
+cmd = ~/Documents/School/Grad/Spring2026/DSMC/HW1/particles 500000 39.95 1000 100 0 0
+source ~/Documents/School/Grad/Spring2026/DSMC/DSMC/bin/activate
+cp ~/Documents/School/Grad/Spring2026/DSMC/HW1/postProc.py
+python postProc.py
+
+2026-02-05 11:44:14,237 - maestrowf.datastructures.core.study:_stage:717 - INFO - New cmd = ~/Documents/School/Grad/Spring2026/DSMC/HW1/particles 500000 39.95 1000 100 0 0
+source ~/Documents/School/Grad/Spring2026/DSMC/DSMC/bin/activate
+cp ~/Documents/School/Grad/Spring2026/DSMC/HW1/postProc.py
+python postProc.py
+
+2026-02-05 11:44:14,237 - maestrowf.utils:create_parentdir:127 - INFO - Directory does not exist. Creating directories to /Users/abbieb/Documents/School/Grad/Spring2026/DSMC/HW1/DSMC_HW1_Problem1_20260205-114412/meta
+2026-02-05 11:44:14,237 - maestrowf.utils:create_parentdir:127 - INFO - Directory does not exist. Creating directories to /Users/abbieb/Documents/School/Grad/Spring2026/DSMC/HW1/DSMC_HW1_Problem1_20260205-114412/meta/study
+2026-02-05 11:44:14,240 - maestrowf.conductor:monitor_study:426 - INFO - Checking DAG status at 2026-02-05 11:44:14.240492
+2026-02-05 11:44:14,240 - maestrowf.datastructures.core.executiongraph:check_study_status:995 - INFO - No jobs found.
+2026-02-05 11:44:14,240 - maestrowf.datastructures.core.executiongraph:execute_ready_steps:932 - INFO - Launching all ready steps...
+2026-02-05 11:44:14,240 - maestrowf.datastructures.core.executiongraph:_execute_record:588 - INFO - Calling execute for StepRecord 'mag-sweep_CX.1000.NUM_PART.100.TEMP.100'
+2026-02-05 11:44:14,240 - maestrowf.utils:create_parentdir:127 - INFO - Directory does not exist. Creating directories to /Users/abbieb/Documents/School/Grad/Spring2026/DSMC/HW1/DSMC_HW1_Problem1_20260205-114412/mag-sweep/CX.1000.NUM_PART.100.TEMP.100
+2026-02-05 11:44:14,240 - maestrowf.datastructures.core.executiongraph:generate_script:114 - INFO - Generating script for mag-sweep_CX.1000.NUM_PART.100.TEMP.100 into /Users/abbieb/Documents/School/Grad/Spring2026/DSMC/HW1/DSMC_HW1_Problem1_20260205-114412/mag-sweep/CX.1000.NUM_PART.100.TEMP.100
+2026-02-05 11:44:14,240 - maestrowf.datastructures.core.executiongraph:generate_script:118 - INFO - Script: /Users/abbieb/Documents/School/Grad/Spring2026/DSMC/HW1/DSMC_HW1_Problem1_20260205-114412/mag-sweep/CX.1000.NUM_PART.100.TEMP.100/mag-sweep_CX.1000.NUM_PART.100.TEMP.100.sh
+Restart: None
+Scheduled?: False
+2026-02-05 11:44:14,240 - maestrowf.datastructures.core.executiongraph:_execute_record:613 - INFO - Attempting submission of 'mag-sweep_CX.1000.NUM_PART.100.TEMP.100' (attempt 1 of 1)...
+2026-02-05 11:44:14,436 - maestrowf.interfaces.script.localscriptadapter:submit:154 - WARNING - Execution returned an error: usage: cp [-R [-H | -L | -P]] [-fi | -n] [-aclpSsvXx] source_file target_file
+       cp [-R [-H | -L | -P]] [-fi | -n] [-aclpSsvXx] source_file ... target_directory
+/opt/homebrew/Cellar/python@3.13/3.13.7/Frameworks/Python.framework/Versions/3.13/Resources/Python.app/Contents/MacOS/Python: can't open file '/Users/abbieb/Documents/School/Grad/Spring2026/DSMC/HW1/DSMC_HW1_Problem1_20260205-114412/mag-sweep/CX.1000.NUM_PART.100.TEMP.100/postProc.py': [Errno 2] No such file or directory
+
+2026-02-05 11:44:15,474 - maestrowf.datastructures.core.executiongraph:_execute_record:648 - WARNING - 'mag-sweep_CX.1000.NUM_PART.100.TEMP.100' failed to submit properly. Step failed.
+2026-02-05 11:44:15,474 - maestrowf.datastructures.core.executiongraph:_execute_record:588 - INFO - Calling execute for StepRecord 'mag-sweep_CX.100.NUM_PART.100.TEMP.100'
+2026-02-05 11:44:15,475 - maestrowf.utils:create_parentdir:127 - INFO - Directory does not exist. Creating directories to /Users/abbieb/Documents/School/Grad/Spring2026/DSMC/HW1/DSMC_HW1_Problem1_20260205-114412/mag-sweep/CX.100.NUM_PART.100.TEMP.100
+2026-02-05 11:44:15,475 - maestrowf.datastructures.core.executiongraph:generate_script:114 - INFO - Generating script for mag-sweep_CX.100.NUM_PART.100.TEMP.100 into /Users/abbieb/Documents/School/Grad/Spring2026/DSMC/HW1/DSMC_HW1_Problem1_20260205-114412/mag-sweep/CX.100.NUM_PART.100.TEMP.100
+2026-02-05 11:44:15,475 - maestrowf.datastructures.core.executiongraph:generate_script:118 - INFO - Script: /Users/abbieb/Documents/School/Grad/Spring2026/DSMC/HW1/DSMC_HW1_Problem1_20260205-114412/mag-sweep/CX.100.NUM_PART.100.TEMP.100/mag-sweep_CX.100.NUM_PART.100.TEMP.100.sh
+Restart: None
+Scheduled?: False
+2026-02-05 11:44:15,475 - maestrowf.datastructures.core.executiongraph:_execute_record:613 - INFO - Attempting submission of 'mag-sweep_CX.100.NUM_PART.100.TEMP.100' (attempt 1 of 1)...
+2026-02-05 11:44:15,699 - maestrowf.interfaces.script.localscriptadapter:submit:154 - WARNING - Execution returned an error: usage: cp [-R [-H | -L | -P]] [-fi | -n] [-aclpSsvXx] source_file target_file
+       cp [-R [-H | -L | -P]] [-fi | -n] [-aclpSsvXx] source_file ... target_directory
+/opt/homebrew/Cellar/python@3.13/3.13.7/Frameworks/Python.framework/Versions/3.13/Resources/Python.app/Contents/MacOS/Python: can't open file '/Users/abbieb/Documents/School/Grad/Spring2026/DSMC/HW1/DSMC_HW1_Problem1_20260205-114412/mag-sweep/CX.100.NUM_PART.100.TEMP.100/postProc.py': [Errno 2] No such file or directory
+
+2026-02-05 11:44:17,029 - maestrowf.datastructures.core.executiongraph:_execute_record:648 - WARNING - 'mag-sweep_CX.100.NUM_PART.100.TEMP.100' failed to submit properly. Step failed.
+2026-02-05 11:44:17,029 - maestrowf.datastructures.core.executiongraph:_execute_record:588 - INFO - Calling execute for StepRecord 'mag-sweep_CX.1000.NUM_PART.100.TEMP.1000'
+2026-02-05 11:44:17,029 - maestrowf.utils:create_parentdir:127 - INFO - Directory does not exist. Creating directories to /Users/abbieb/Documents/School/Grad/Spring2026/DSMC/HW1/DSMC_HW1_Problem1_20260205-114412/mag-sweep/CX.1000.NUM_PART.100.TEMP.1000
+2026-02-05 11:44:17,030 - maestrowf.datastructures.core.executiongraph:generate_script:114 - INFO - Generating script for mag-sweep_CX.1000.NUM_PART.100.TEMP.1000 into /Users/abbieb/Documents/School/Grad/Spring2026/DSMC/HW1/DSMC_HW1_Problem1_20260205-114412/mag-sweep/CX.1000.NUM_PART.100.TEMP.1000
+2026-02-05 11:44:17,030 - maestrowf.datastructures.core.executiongraph:generate_script:118 - INFO - Script: /Users/abbieb/Documents/School/Grad/Spring2026/DSMC/HW1/DSMC_HW1_Problem1_20260205-114412/mag-sweep/CX.1000.NUM_PART.100.TEMP.1000/mag-sweep_CX.1000.NUM_PART.100.TEMP.1000.sh
+Restart: None
+Scheduled?: False
+2026-02-05 11:44:17,031 - maestrowf.datastructures.core.executiongraph:_execute_record:613 - INFO - Attempting submission of 'mag-sweep_CX.1000.NUM_PART.100.TEMP.1000' (attempt 1 of 1)...
+2026-02-05 11:44:17,216 - maestrowf.interfaces.script.localscriptadapter:submit:154 - WARNING - Execution returned an error: usage: cp [-R [-H | -L | -P]] [-fi | -n] [-aclpSsvXx] source_file target_file
+       cp [-R [-H | -L | -P]] [-fi | -n] [-aclpSsvXx] source_file ... target_directory
+/opt/homebrew/Cellar/python@3.13/3.13.7/Frameworks/Python.framework/Versions/3.13/Resources/Python.app/Contents/MacOS/Python: can't open file '/Users/abbieb/Documents/School/Grad/Spring2026/DSMC/HW1/DSMC_HW1_Problem1_20260205-114412/mag-sweep/CX.1000.NUM_PART.100.TEMP.1000/postProc.py': [Errno 2] No such file or directory
+
+2026-02-05 11:44:18,510 - maestrowf.datastructures.core.executiongraph:_execute_record:648 - WARNING - 'mag-sweep_CX.1000.NUM_PART.100.TEMP.1000' failed to submit properly. Step failed.
+2026-02-05 11:44:18,510 - maestrowf.datastructures.core.executiongraph:_execute_record:588 - INFO - Calling execute for StepRecord 'mag-sweep_CX.100.NUM_PART.100.TEMP.1000'
+2026-02-05 11:44:18,510 - maestrowf.utils:create_parentdir:127 - INFO - Directory does not exist. Creating directories to /Users/abbieb/Documents/School/Grad/Spring2026/DSMC/HW1/DSMC_HW1_Problem1_20260205-114412/mag-sweep/CX.100.NUM_PART.100.TEMP.1000
+2026-02-05 11:44:18,510 - maestrowf.datastructures.core.executiongraph:generate_script:114 - INFO - Generating script for mag-sweep_CX.100.NUM_PART.100.TEMP.1000 into /Users/abbieb/Documents/School/Grad/Spring2026/DSMC/HW1/DSMC_HW1_Problem1_20260205-114412/mag-sweep/CX.100.NUM_PART.100.TEMP.1000
+2026-02-05 11:44:18,511 - maestrowf.datastructures.core.executiongraph:generate_script:118 - INFO - Script: /Users/abbieb/Documents/School/Grad/Spring2026/DSMC/HW1/DSMC_HW1_Problem1_20260205-114412/mag-sweep/CX.100.NUM_PART.100.TEMP.1000/mag-sweep_CX.100.NUM_PART.100.TEMP.1000.sh
+Restart: None
+Scheduled?: False
+2026-02-05 11:44:18,511 - maestrowf.datastructures.core.executiongraph:_execute_record:613 - INFO - Attempting submission of 'mag-sweep_CX.100.NUM_PART.100.TEMP.1000' (attempt 1 of 1)...
+2026-02-05 11:44:18,719 - maestrowf.interfaces.script.localscriptadapter:submit:154 - WARNING - Execution returned an error: usage: cp [-R [-H | -L | -P]] [-fi | -n] [-aclpSsvXx] source_file target_file
+       cp [-R [-H | -L | -P]] [-fi | -n] [-aclpSsvXx] source_file ... target_directory
+/opt/homebrew/Cellar/python@3.13/3.13.7/Frameworks/Python.framework/Versions/3.13/Resources/Python.app/Contents/MacOS/Python: can't open file '/Users/abbieb/Documents/School/Grad/Spring2026/DSMC/HW1/DSMC_HW1_Problem1_20260205-114412/mag-sweep/CX.100.NUM_PART.100.TEMP.1000/postProc.py': [Errno 2] No such file or directory
+
+2026-02-05 11:44:20,086 - maestrowf.datastructures.core.executiongraph:_execute_record:648 - WARNING - 'mag-sweep_CX.100.NUM_PART.100.TEMP.1000' failed to submit properly. Step failed.
+2026-02-05 11:44:20,086 - maestrowf.datastructures.core.executiongraph:_execute_record:588 - INFO - Calling execute for StepRecord 'mag-sweep_CX.1000.NUM_PART.500000.TEMP.100'
+2026-02-05 11:44:20,086 - maestrowf.utils:create_parentdir:127 - INFO - Directory does not exist. Creating directories to /Users/abbieb/Documents/School/Grad/Spring2026/DSMC/HW1/DSMC_HW1_Problem1_20260205-114412/mag-sweep/CX.1000.NUM_PART.500000.TEMP.100
+2026-02-05 11:44:20,087 - maestrowf.datastructures.core.executiongraph:generate_script:114 - INFO - Generating script for mag-sweep_CX.1000.NUM_PART.500000.TEMP.100 into /Users/abbieb/Documents/School/Grad/Spring2026/DSMC/HW1/DSMC_HW1_Problem1_20260205-114412/mag-sweep/CX.1000.NUM_PART.500000.TEMP.100
+2026-02-05 11:44:20,089 - maestrowf.datastructures.core.executiongraph:generate_script:118 - INFO - Script: /Users/abbieb/Documents/School/Grad/Spring2026/DSMC/HW1/DSMC_HW1_Problem1_20260205-114412/mag-sweep/CX.1000.NUM_PART.500000.TEMP.100/mag-sweep_CX.1000.NUM_PART.500000.TEMP.100.sh
+Restart: None
+Scheduled?: False
+2026-02-05 11:44:20,089 - maestrowf.datastructures.core.executiongraph:_execute_record:613 - INFO - Attempting submission of 'mag-sweep_CX.1000.NUM_PART.500000.TEMP.100' (attempt 1 of 1)...
+2026-02-05 11:44:20,840 - maestrowf.interfaces.script.localscriptadapter:submit:154 - WARNING - Execution returned an error: usage: cp [-R [-H | -L | -P]] [-fi | -n] [-aclpSsvXx] source_file target_file
+       cp [-R [-H | -L | -P]] [-fi | -n] [-aclpSsvXx] source_file ... target_directory
+/opt/homebrew/Cellar/python@3.13/3.13.7/Frameworks/Python.framework/Versions/3.13/Resources/Python.app/Contents/MacOS/Python: can't open file '/Users/abbieb/Documents/School/Grad/Spring2026/DSMC/HW1/DSMC_HW1_Problem1_20260205-114412/mag-sweep/CX.1000.NUM_PART.500000.TEMP.100/postProc.py': [Errno 2] No such file or directory
+
+2026-02-05 11:44:22,123 - maestrowf.datastructures.core.executiongraph:_execute_record:648 - WARNING - 'mag-sweep_CX.1000.NUM_PART.500000.TEMP.100' failed to submit properly. Step failed.
+2026-02-05 11:44:22,123 - maestrowf.datastructures.core.executiongraph:_execute_record:588 - INFO - Calling execute for StepRecord 'mag-sweep_CX.100.NUM_PART.500000.TEMP.100'
+2026-02-05 11:44:22,123 - maestrowf.utils:create_parentdir:127 - INFO - Directory does not exist. Creating directories to /Users/abbieb/Documents/School/Grad/Spring2026/DSMC/HW1/DSMC_HW1_Problem1_20260205-114412/mag-sweep/CX.100.NUM_PART.500000.TEMP.100
+2026-02-05 11:44:22,124 - maestrowf.datastructures.core.executiongraph:generate_script:114 - INFO - Generating script for mag-sweep_CX.100.NUM_PART.500000.TEMP.100 into /Users/abbieb/Documents/School/Grad/Spring2026/DSMC/HW1/DSMC_HW1_Problem1_20260205-114412/mag-sweep/CX.100.NUM_PART.500000.TEMP.100
+2026-02-05 11:44:22,124 - maestrowf.datastructures.core.executiongraph:generate_script:118 - INFO - Script: /Users/abbieb/Documents/School/Grad/Spring2026/DSMC/HW1/DSMC_HW1_Problem1_20260205-114412/mag-sweep/CX.100.NUM_PART.500000.TEMP.100/mag-sweep_CX.100.NUM_PART.500000.TEMP.100.sh
+Restart: None
+Scheduled?: False
+2026-02-05 11:44:22,124 - maestrowf.datastructures.core.executiongraph:_execute_record:613 - INFO - Attempting submission of 'mag-sweep_CX.100.NUM_PART.500000.TEMP.100' (attempt 1 of 1)...
+2026-02-05 11:44:23,150 - maestrowf.interfaces.script.localscriptadapter:submit:154 - WARNING - Execution returned an error: usage: cp [-R [-H | -L | -P]] [-fi | -n] [-aclpSsvXx] source_file target_file
+       cp [-R [-H | -L | -P]] [-fi | -n] [-aclpSsvXx] source_file ... target_directory
+/opt/homebrew/Cellar/python@3.13/3.13.7/Frameworks/Python.framework/Versions/3.13/Resources/Python.app/Contents/MacOS/Python: can't open file '/Users/abbieb/Documents/School/Grad/Spring2026/DSMC/HW1/DSMC_HW1_Problem1_20260205-114412/mag-sweep/CX.100.NUM_PART.500000.TEMP.100/postProc.py': [Errno 2] No such file or directory
+
+2026-02-05 11:44:24,800 - maestrowf.datastructures.core.executiongraph:_execute_record:648 - WARNING - 'mag-sweep_CX.100.NUM_PART.500000.TEMP.100' failed to submit properly. Step failed.
+2026-02-05 11:44:24,801 - maestrowf.datastructures.core.executiongraph:_execute_record:588 - INFO - Calling execute for StepRecord 'mag-sweep_CX.1000.NUM_PART.500000.TEMP.1000'
+2026-02-05 11:44:24,801 - maestrowf.utils:create_parentdir:127 - INFO - Directory does not exist. Creating directories to /Users/abbieb/Documents/School/Grad/Spring2026/DSMC/HW1/DSMC_HW1_Problem1_20260205-114412/mag-sweep/CX.1000.NUM_PART.500000.TEMP.1000
+2026-02-05 11:44:24,802 - maestrowf.datastructures.core.executiongraph:generate_script:114 - INFO - Generating script for mag-sweep_CX.1000.NUM_PART.500000.TEMP.1000 into /Users/abbieb/Documents/School/Grad/Spring2026/DSMC/HW1/DSMC_HW1_Problem1_20260205-114412/mag-sweep/CX.1000.NUM_PART.500000.TEMP.1000
+2026-02-05 11:44:24,803 - maestrowf.datastructures.core.executiongraph:generate_script:118 - INFO - Script: /Users/abbieb/Documents/School/Grad/Spring2026/DSMC/HW1/DSMC_HW1_Problem1_20260205-114412/mag-sweep/CX.1000.NUM_PART.500000.TEMP.1000/mag-sweep_CX.1000.NUM_PART.500000.TEMP.1000.sh
+Restart: None
+Scheduled?: False
+2026-02-05 11:44:24,803 - maestrowf.datastructures.core.executiongraph:_execute_record:613 - INFO - Attempting submission of 'mag-sweep_CX.1000.NUM_PART.500000.TEMP.1000' (attempt 1 of 1)...
+2026-02-05 11:44:25,549 - maestrowf.interfaces.script.localscriptadapter:submit:154 - WARNING - Execution returned an error: usage: cp [-R [-H | -L | -P]] [-fi | -n] [-aclpSsvXx] source_file target_file
+       cp [-R [-H | -L | -P]] [-fi | -n] [-aclpSsvXx] source_file ... target_directory
+/opt/homebrew/Cellar/python@3.13/3.13.7/Frameworks/Python.framework/Versions/3.13/Resources/Python.app/Contents/MacOS/Python: can't open file '/Users/abbieb/Documents/School/Grad/Spring2026/DSMC/HW1/DSMC_HW1_Problem1_20260205-114412/mag-sweep/CX.1000.NUM_PART.500000.TEMP.1000/postProc.py': [Errno 2] No such file or directory
+
+2026-02-05 11:44:27,433 - maestrowf.datastructures.core.executiongraph:_execute_record:648 - WARNING - 'mag-sweep_CX.1000.NUM_PART.500000.TEMP.1000' failed to submit properly. Step failed.
+2026-02-05 11:44:27,433 - maestrowf.datastructures.core.executiongraph:_execute_record:588 - INFO - Calling execute for StepRecord 'mag-sweep_CX.100.NUM_PART.500000.TEMP.1000'
+2026-02-05 11:44:27,433 - maestrowf.utils:create_parentdir:127 - INFO - Directory does not exist. Creating directories to /Users/abbieb/Documents/School/Grad/Spring2026/DSMC/HW1/DSMC_HW1_Problem1_20260205-114412/mag-sweep/CX.100.NUM_PART.500000.TEMP.1000
+2026-02-05 11:44:27,433 - maestrowf.datastructures.core.executiongraph:generate_script:114 - INFO - Generating script for mag-sweep_CX.100.NUM_PART.500000.TEMP.1000 into /Users/abbieb/Documents/School/Grad/Spring2026/DSMC/HW1/DSMC_HW1_Problem1_20260205-114412/mag-sweep/CX.100.NUM_PART.500000.TEMP.1000
+2026-02-05 11:44:27,433 - maestrowf.datastructures.core.executiongraph:generate_script:118 - INFO - Script: /Users/abbieb/Documents/School/Grad/Spring2026/DSMC/HW1/DSMC_HW1_Problem1_20260205-114412/mag-sweep/CX.100.NUM_PART.500000.TEMP.1000/mag-sweep_CX.100.NUM_PART.500000.TEMP.1000.sh
+Restart: None
+Scheduled?: False
+2026-02-05 11:44:27,434 - maestrowf.datastructures.core.executiongraph:_execute_record:613 - INFO - Attempting submission of 'mag-sweep_CX.100.NUM_PART.500000.TEMP.1000' (attempt 1 of 1)...
+2026-02-05 11:44:28,137 - maestrowf.interfaces.script.localscriptadapter:submit:154 - WARNING - Execution returned an error: usage: cp [-R [-H | -L | -P]] [-fi | -n] [-aclpSsvXx] source_file target_file
+       cp [-R [-H | -L | -P]] [-fi | -n] [-aclpSsvXx] source_file ... target_directory
+/opt/homebrew/Cellar/python@3.13/3.13.7/Frameworks/Python.framework/Versions/3.13/Resources/Python.app/Contents/MacOS/Python: can't open file '/Users/abbieb/Documents/School/Grad/Spring2026/DSMC/HW1/DSMC_HW1_Problem1_20260205-114412/mag-sweep/CX.100.NUM_PART.500000.TEMP.1000/postProc.py': [Errno 2] No such file or directory
+
+2026-02-05 11:44:29,236 - maestrowf.datastructures.core.executiongraph:_execute_record:648 - WARNING - 'mag-sweep_CX.100.NUM_PART.500000.TEMP.1000' failed to submit properly. Step failed.
+2026-02-05 11:44:29,236 - root:_check_study_completion:735 - INFO - 'DSMC_HW1_Problem1' is complete with failures. Returning.
+2026-02-05 11:44:29,243 - maestrowf.conductor:main:461 - INFO - Study completed with state 'StudyStatus.FAILURE'.
+2026-02-05 11:44:29,243 - maestrowf.conductor:main:468 - INFO - Study exiting, cleaning up...
+2026-02-05 11:44:29,243 - maestrowf.conductor:main:470 - INFO - Squeaky clean!

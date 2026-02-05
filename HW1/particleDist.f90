@@ -46,6 +46,12 @@ program makeVelocities
    end do
 
    open(newunit=io, file="vel.txt")
+   !print *, "N: ",N, "Mass: ", mass, "T: ", T,"cx: ", cx, "cy: ", cy, "cz: ", cz
+   write(io, *) "#Particles: ", N
+   write(io, *) "#T: ", T
+   write(io, *) "#Cx: ", cx
+   write(io, *) "#Cy: ", cy
+   write(io, *) "#Cz: ", cz
    write(io, *)  "cx    cy    cz"
    write(io, *)  "--------------"
    do i = 1, N
@@ -53,7 +59,6 @@ program makeVelocities
    end do
    close(io)
 
-   print *, "N: ",N, "Mass: ", mass, "T: ", T,"cx: ", cx, "cy: ", cy, "cz: ", cz
    !print *, p(:)
 
    deallocate(p)
